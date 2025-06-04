@@ -29,8 +29,17 @@ async function run() {
 
     // ALL Data Fetch From Database
     const jobsCollection = client.db('CrrearCode').collection('jobs')
+    // Jobs API 
     app.get('/jobs', async (req, res) => {
-      const currsor = jobsCollection.find();
+
+      // search a specefic uwer by the customs parameter 
+      const email = req.query.email
+      const query = {};
+      if (email) {
+        query.hr_email = email
+      }
+
+      const currsor = jobsCollection.find(query);
       const result = await currsor.toArray()
       res.send(result)
     })
@@ -44,11 +53,46 @@ async function run() {
     })
 
 
-    // Application for Job That code here write here 
+    // Application for Job That code here write here------------------------------- 
+
+
+    app.post('/jobs', async (req, res) => {
+      const newJob = req.body;
+      console.log(newJob)
+      const result = await jobsCollection.insertOne(newJob)
+      res.send(result)
+    })
+
+    // find the Data collection email base selection find 
+    app.get('/applications', async (req, res) => {
+      const email = req.query.email;
+      const query = {
+        email: email
+      }
+      const result = await applicationCollection.find(query).toArray();
+
+      for (const application of result) {
+        const jobId = application.jobId;
+        const jobQuery = { _id: new ObjectId(jobId) };
+        const job = await jobsCollection.findOne(jobQuery);
+        application.job = job;
+      }
+      res.send(result);
+    })
+
     const applicationCollection = client.db('CrrearCode').collection('applications');
     app.post('/applications', async (req, res) => {
       const application = req.body;
       const result = await applicationCollection.insertOne(application);
+      res.send(result);
+    })
+
+    // find the job particular single by , How many application are submit in one JOB 
+    app.get('/applications/job/:job_id' , async(req , res)=>{
+      const job_id = req.params.job_id;
+    console.log(job_id)
+      const query = {jobId : job_id}
+      const result = await applicationCollection.find(query).toArray()
       res.send(result);
     })
 
