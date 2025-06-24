@@ -1,0 +1,112 @@
+[
+  {
+    "postType": "Lost",
+    "thumbnail": "https://example.com/images/lost-dog.jpg",
+    "title": "Lost Golden Retriever near Park",
+    "description": "Friendly golden retriever named Max. Last seen near Central Park on Sunday evening.",
+    "category": "pets",
+    "location": "Central Park, New York, NY",
+    "date": "2025-06-10T00:00:00Z",
+    "displayName": "John Doe",
+    "email": "john.doe@example.com"
+  },
+  {
+    "postType": "Found",
+    "thumbnail": "https://example.com/images/found-wallet.jpg",
+    "title": "Found Brown Leather Wallet",
+    "description": "Found a brown leather wallet with several cards inside near Union Square.",
+    "category": "documents",
+    "location": "Union Square, San Francisco, CA",
+    "date": "2025-06-12T00:00:00Z",
+    "displayName": "Jane Smith",
+    "email": "jane.smith@example.com"
+  },
+  {
+    "postType": "Lost",
+    "thumbnail": "https://example.com/images/lost-phone.jpg",
+    "title": "Lost iPhone 13 - Blue",
+    "description": "Lost an iPhone 13 in a blue case around the campus cafeteria.",
+    "category": "gadgets",
+    "location": "Campus Cafeteria, MIT, Cambridge, MA",
+    "date": "2025-06-09T00:00:00Z",
+    "displayName": "Emily Zhao",
+    "email": "emily.zhao@example.edu"
+  },
+  {
+    "postType": "Found",
+    "thumbnail": "https://example.com/images/found-cat.jpg",
+    "title": "Found Grey Cat with Collar",
+    "description": "Found a grey cat with a red collar wandering near the bus stop. Very calm and friendly.",
+    "category": "pets",
+    "location": "5th Avenue Bus Stop, Seattle, WA",
+    "date": "2025-06-11T00:00:00Z",
+    "displayName": "Carlos Ruiz",
+    "email": "carlos.ruiz@example.com"
+  },
+  {
+    "postType": "Lost",
+    "thumbnail": "https://example.com/images/lost-keys.jpg",
+    "title": "Lost Set of Keys with Blue Keychain",
+    "description": "Set of house and car keys lost somewhere in the library or cafe.",
+    "category": "gadgets",
+    "location": "City Library, Austin, TX",
+    "date": "2025-06-08T00:00:00Z",
+    "displayName": "Ayesha Khan",
+    "email": "ayesha.khan@example.com"
+  },
+  {
+    "postType": "Found",
+    "thumbnail": "https://example.com/images/found-glasses.jpg",
+    "title": "Found Prescription Glasses",
+    "description": "Found a pair of black-rimmed prescription glasses on the bus seat.",
+    "category": "gadgets",
+    "location": "Route 52 Bus, Chicago, IL",
+    "date": "2025-06-13T00:00:00Z",
+    "displayName": "Mike Thompson",
+    "email": "mike.thompson@example.com"
+  },
+  {
+    "postType": "Lost",
+    "thumbnail": "https://example.com/images/lost-id.jpg",
+    "title": "Lost Student ID Card - UCLA",
+    "description": "Lost my student ID card somewhere on campus near the library or food court.",
+    "category": "documents",
+    "location": "UCLA Campus, Los Angeles, CA",
+    "date": "2025-06-07T00:00:00Z",
+    "displayName": "Linda Park",
+    "email": "linda.park@example.edu"
+  },
+  {
+    "postType": "Found",
+    "thumbnail": "https://example.com/images/found-headphones.jpg",
+    "title": "Found Wireless Headphones",
+    "description": "Found a pair of black Bose wireless headphones at the gym locker room.",
+    "category": "gadgets",
+    "location": "Gold's Gym, Miami, FL",
+    "date": "2025-06-10T00:00:00Z",
+    "displayName": "Robert Green",
+    "email": "robert.green@example.com"
+  },
+  {
+    "postType": "Lost",
+    "thumbnail": "https://example.com/images/lost-passport.jpg",
+    "title": "Lost Passport - Urgent",
+    "description": "Lost my Bangladeshi passport while traveling through airport terminal 3.",
+    "category": "documents",
+    "location": "JFK International Airport, NY",
+    "date": "2025-06-06T00:00:00Z",
+    "displayName": "Samiul Rahman",
+    "email": "samiul.rahman@example.com"
+  },
+  {
+    "postType": "Found",
+    "thumbnail": "https://example.com/images/found-bag.jpg",
+    "title": "Found Backpack with Books",
+    "description": "Found a navy blue backpack with textbooks and notes. No ID inside.",
+    "category": "documents",
+    "location": "Starbucks near City Mall, Dallas, TX",
+    "date": "2025-06-12T00:00:00Z",
+    "displayName": "Natalie Brooks",
+    "email": "natalie.brooks@example.com"
+  }
+]
